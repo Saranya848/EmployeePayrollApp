@@ -128,6 +128,17 @@ select {
   color: #42515f;
   background-color: transparent;
 }
+select {
+  padding: 12px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  resize: vertical;
+  font: normal normal normal 16px Roboto;
+  letter-spacing: 0px;
+  color: #42515f;
+  background-color: transparent;
+}
+
 .buttonParent {
   display: flex;
   margin-bottom: 10px;
@@ -154,6 +165,8 @@ select {
   border: none;
   background-color: #f5f5f5;
   margin-right: 10px;
+  border: 1px solid #707070;
+  margin-left: 15px;
 }
 
 .cancelButton {
