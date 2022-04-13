@@ -118,6 +118,7 @@ label {
   border-radius: 50%;
   margin-left: 12px;
 }
+
 select {
   padding: 12px;
   border: 1px solid #ccc;
@@ -161,6 +162,14 @@ select {
 .cancelButton {
   text-decoration: none;
   text-align: center;
+}
+
+error-output {
+  font-size: 12px;
+  font-style: italic;
+  color: red;
+  text-align: right;
+  width: 20%;
 }
 
 @media only screen and (max-width: 960px) {
